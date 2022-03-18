@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+        <!-- Header Start -->
+
+        <header>
+            <a href="#">
+                <h2>WEBHUB.<span>mov</span></h2>
+            </a>
+
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Latest</a></li>
+                    <li><a href="#">Porpular</a></li>
+                </ul>
+            </nav>
+
+            <ul>
+                <li><i class='bx bx-cog' id="setting-toggle"></i></li>
+                <li><i class='bx bx-sun'></i></li>
+                <li><i class='bx bx-menu' id="menu-toggle"></i></li>
+            </ul>
+        </header>
+
+        <div class="setting-box">
+            <img src="image/1.jpg" alt="">
+            <img src="image/2.jpg" alt="">
+            <img src="image/3.jpg" alt="">
+            <img src="image/4.jpg" alt="">
+            <img src="image/5.jpg" alt="">
+            <img src="image/6.jpg" alt="">
+        </div>
+
+    <!-- Header End -->
+
+    <main>
+        <!-- Image Landing Start -->
+
+        <section id="landing">
+            <img src="image/1.jpg" alt="" class="landing-image">
+            <div class="hover-box"></div>
+
+            <div class="search">
+                <h1>Search Movie Here</h1>
+                <input type="text" placeholder="Search By Movie Name" id="search">
+            </div>
+        </section>
+    
+        <!-- Image Landing End -->
+
+        <section id="popular">
+            <h1>Popular Movie</h1>
+            <div class="movie-container">
+                
+            </div>
+        </section>
+        
+    </main>
+
+    <!-- Scroll Top -->
+
+    <div class="scroll-top"><i class='bx bx-chevrons-up'></i></div>
+
+
+    <!-- Loader -->
+
+    <div class="loader">
+        <div class="load-child"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
